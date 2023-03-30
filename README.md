@@ -6,12 +6,12 @@
 3. Abre el proyecto desde Unity
 
 Cada vez que vayas a empezar un grupo de ejercicios:
-- Crea una carpeta con el esquema Ejercicios_x, donde x es el número de la sección
+- Crea una carpeta con el esquema ```Ejercicios_x```, donde x es el número de la sección
 - Crea un script nuevo por cada ejercicio de la sección
-- Recuerda colocar todas las clases bajo el espacio de nombres Ejercicios_x
+- Recuerda colocar todas las clases bajo el espacio de nombres ```Ejercicios_x```
 
 ## Ejercicios_1
-1. Crear un script que genere un GameObject al inicio cuyo nombre sea "Ejercicio01
+1. Crear un script que genere un GameObject al inicio cuyo nombre sea "Ejercicio01"
 2. Crear un script que genere un GameObject al inicio y trasladarlo a la posicion (111.1, -5, 4.5)
 3. Crear un script que genere un cubo al inicio y duplique su escala
 4. Crear un script que genere una esfera al inicio con un Rigidbody añadido
