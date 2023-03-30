@@ -10,7 +10,7 @@ Cada vez que vayas a empezar un grupo de ejercicios:
 - Crea un script nuevo por cada ejercicio de la sección
 - Recuerda colocar todas las clases bajo el espacio de nombres Ejercicios_x
 
-## Ejercicios 01
+## Ejercicios_1
 1. Crear un script que genere un GameObject al inicio cuyo nombre sea "Ejercicio01
 2. Crear un script que genere un GameObject al inicio y trasladarlo a la posicion (111.1, -5, 4.5)
 3. Crear un script que genere un cubo al inicio y duplique su escala
