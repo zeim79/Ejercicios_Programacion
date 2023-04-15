@@ -20,6 +20,8 @@ namespace Ejercicios_1
                     spheres[i].transform.localScale = spheres[i - 1].transform.localScale * 2;
                 }
             }
+
+            //❕ Ejercicio08.CreatePrimitives(PrimitiveType.Sphere, 12);
         }
     }
 }

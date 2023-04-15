@@ -19,6 +19,24 @@ namespace Ejercicios_1
             c3.name = "cube03";
             c3.transform.position = new Vector3(c2.transform.position.x + 4f, 0f, 0f);
             c3.transform.localScale = c2.transform.localScale * 2;
+
+            //❕ CreatePrimitives(PrimitiveType.Cube, 3);
         }
+
+        //❕
+        public static void CreatePrimitives(PrimitiveType primitiveType, int amount, float separation = 0f)
+        {
+            float x = -0.5f; //Para que el primero se dibuje en (0, 0, 0)
+            for (int i = 0; i < amount; i++)
+            {
+                GameObject go = GameObject.CreatePrimitive(primitiveType);
+                float size = Mathf.Pow(2f, i); //1, 2, 4, 8, 16
+                go.transform.localScale = Vector3.one * size;
+                x += size/2f; //Empujamos el punto de creación la mitad del tamaño que tiene
+                go.transform.position = new Vector3(x, 0f, 0f);
+                x += size/2f; //Empujamos la otra mitad para retomar desde ahí en el próximo
+                x += separation; //Añadimos la separación que queremos entre cubos
+            }
+        }  
     }
 }

@@ -10,7 +10,7 @@ namespace Ejercicios_1
         private void Awake()
         {
             GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-            cube.transform.localScale *= 2;
+            cube.transform.localScale *= 2f;
         }
     }
 }
